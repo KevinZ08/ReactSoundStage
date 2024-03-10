@@ -1,0 +1,32 @@
+.navBar {
+  &-container {
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+  }
+
+  &-element {
+    color: white;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  &-element:hover {
+    color: white;
+    background-color: #646464;
+  }
+
+  &-searchBar {
+    color: white;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+
+  &-icon {
+    width: 50px;
+    aspect-ratio: 1 / 1;
+  }
+
+  &-iconContainer {
+    margin: 0px 100px 0px 10px;
+  }
+}
