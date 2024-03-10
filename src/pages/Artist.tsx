@@ -1,5 +1,3 @@
-import React from "react";
-
 function Artist() {
   return (
     <div className="artist">

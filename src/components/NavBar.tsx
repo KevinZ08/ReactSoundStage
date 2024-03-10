@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styling/navBar.scss";
 import reactSoundStageIcon from "../images/ReactSoundStageIconWithoutBackground.png";
