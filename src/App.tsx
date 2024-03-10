@@ -14,7 +14,7 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route path="/ReactSoundStage/Home" element={<Home />} />
+          <Route path="/ReactSoundStage" element={<Home />} />
           <Route path="/ReactSoundStage/Dashboard" element={<Dashboard />} />
           <Route path="/ReactSoundStage/Artist" element={<Artist />} />
           <Route path="/ReactSoundStage/Contact" element={<Contact />} />
