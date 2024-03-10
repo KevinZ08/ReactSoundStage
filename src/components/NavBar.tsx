@@ -5,14 +5,14 @@ import reactSoundStageIcon from "../images/ReactSoundStageIconWithoutBackground.
 function NavBar() {
   return (
     <nav className="navBar-container">
-      <NavLink className="navBar-iconContainer" to="/ReactSoundStage/Home">
+      <NavLink className="navBar-iconContainer" to="/ReactSoundStage">
         <img
           src={reactSoundStageIcon}
           className="navBar-icon"
           alt="ReactSoundStage-Icon"
         />
       </NavLink>
-      <NavLink className="navBar-element" to="/ReactSoundStage/Home">
+      <NavLink className="navBar-element" to="/ReactSoundStage">
         <p>Home</p>
       </NavLink>
       <NavLink className="navBar-element" to="/ReactSoundStage/Dashboard">
